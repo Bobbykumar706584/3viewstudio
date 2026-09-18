@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f8f6f1;
+  --warm: #ebe5da;
+  --ink: #151412;
+  --muted: #746e65;
+  --line: rgba(21,20,18,.13);
+  --accent: #9b8157;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: #d8c8aa;
+  color: #151412;
+}
