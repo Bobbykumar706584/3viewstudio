@@ -75,7 +75,6 @@ export default function Home() {
             <div className="mt-12 flex flex-wrap gap-x-8 gap-y-3 border-t border-black/10 pt-6 text-xs uppercase tracking-[0.15em] text-[#7b7368]">
               <span>Interiors</span>
               <span>Architecture</span>
-              <span>Products</span>
               <span>Commercial</span>
             </div>
           </div>
@@ -156,9 +155,8 @@ export default function Home() {
             {[
               ["01", "Interior", "Rooms, homes and design concepts"],
               ["02", "Exterior", "Architecture, elevations and facades"],
-              ["03", "Product", "Products, furniture and objects"],
               [
-                "04",
+                "03",
                 "Commercial",
                 "Retail, hospitality, healthcare and offices",
               ],
