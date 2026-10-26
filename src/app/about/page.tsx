@@ -28,7 +28,7 @@ const partners = [
   {
     name: "Rahul Agarwal",
     designation: "Director",
-    image: "/partners/partner-1.jpeg",
+    // image: "/partners/partner-1.jpeg",
   },
   // {
   //   name: "Partner Two",
@@ -239,7 +239,7 @@ export default function About() {
                 "
               >
                 {/* Photo */}
-                <div className="relative aspect-[4/4.2] overflow-hidden">
+                {/* <div className="relative aspect-[4/4.2] overflow-hidden">
                   <Image
                     src={partner.image}
                     alt={`${partner.name} - ${partner.designation}`}
@@ -255,7 +255,7 @@ export default function About() {
                       group-hover:scale-105
                     "
                   />
-                </div>
+                </div> */}
 
                 {/* Details */}
                 <div className="p-5 sm:p-6">
